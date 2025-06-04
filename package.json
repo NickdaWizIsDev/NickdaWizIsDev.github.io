@@ -1,0 +1,25 @@
+{
+  "name": "hypixel-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickdaWizIsDev/Hypixel-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickdaWizIsDev/Hypixel-Api/issues"
+  },
+  "homepage": "https://github.com/NickdaWizIsDev/Hypixel-Api#readme",
+  "description": ""
+}

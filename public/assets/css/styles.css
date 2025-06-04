@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  overflow-y: auto;  
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),   /* Black tint */
+    url('SkyBlock_renders_bazaar.png');                            /* Background image */
+    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  filter: blur(2px);
+
+  z-index: -1;
+}
+
+.bg-green {
+  background-color: greenyellow;
+}
+.bg-gray {
+  background-color: lightgray;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-cyan {
+  background-color: aqua;
+}
+.bg-blue {
+  background-color: rgb(80, 80, 255);
+}
+.bg-pink {
+  background-color: hotpink;
+}
+.bg-purple {
+  background-color: rebeccapurple;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-burlywood{
+    background-color: burlywood;
+}
+.bg-darkgreen {
+  background-color: darkolivegreen;
+}
+
+
+
