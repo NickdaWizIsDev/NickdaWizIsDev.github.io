@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const app = express();
 const PORT = 3000;
 
-const API_KEY = "e4210caa-fd0a-47ad-81bd-74cc4cb55624";
+const API_KEY = "0099d5cc-a376-4718-bf18-d15875b1abd0";
 
 app.use(express.static('public'));
 
