@@ -35,7 +35,7 @@ app.get('/api/skills/:username', async (req, res) => {
 
   try {
     // Step 1: Get UUID from Mojang
-    const mojangRes = await fetch(`https://api.mojang.com/users/profiles/minecraft/${username}`);
+    const mojangRes = await fetch(`https://playerdb.co/api/player/minecraft/${username}`);
     if (!mojangRes.ok) throw new Error("Player not found");
     const mojangData = await mojangRes.json();
     const uuid = mojangData.id;
