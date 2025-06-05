@@ -12,7 +12,7 @@ async function getSkills() {
     const uuid = mojangData.data.player.raw_id;
 
     // Step 2: Get Skyblock profiles from Hypixel API (CORS is allowed)
-    const API_KEY = "0099d5cc-a376-4718-bf18-d15875b1abd0";
+    const API_KEY = "60fa9e81-1961-457e-9e4b-881c40f0f2c1";
     const hypixelRes = await fetch(`https://api.hypixel.net/v2/skyblock/profiles?key=${API_KEY}&uuid=${uuid}`);
     const hypixelData = await hypixelRes.json();
     if (!hypixelData.success) throw new Error(hypixelData.cause || "Hypixel API failed");
